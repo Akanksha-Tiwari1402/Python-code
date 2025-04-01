@@ -1,0 +1,8 @@
+num1=int(input("Enter the number:"))
+num2=int(input("Enter the number:"))
+num3=int(input("Enter the number:"))
+num4=int(input("Enter the number:"))
+smallest = (num1 if num1 < num2 else num2)
+smallest = (smallest if smallest < num3 else num3)
+smallest = (smallest if smallest < num4 else num4)
+print("The smallest number is:", smallest)
